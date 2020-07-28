@@ -6,7 +6,7 @@ WMI Provider developed using the .NET WMI Provider Extension Framework.  This wi
 ### Installation
 You must have .NET 4.5 or higher installed on the system.  Use the built in installutil.exe application to install the provider into your WMI repository.
 
-Example: `"C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe" "RegistryInventoryProvider.dll"`
+Example (From an elevated command prompt): `"C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe" "RegistryInventoryProvider.dll"`
 
 Uninstalling is just as easy, add `/U` to the above command to run the uninstall routine.
 
