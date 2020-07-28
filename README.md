@@ -25,7 +25,7 @@ To further pinpoint your results you can add a name attribute and specify a valu
 Using the wildcard (\*) character will let you partially match value names.  
 `'<registryrule key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion" name="ProgramFiles*"/>'`
 
-Additional attributes currently available are:
+Additional attributes currently available are:  
 **defaultvalueoption** - How to handle the default value of a key. (onlyifvalueisset is default)
 - neverinventory
 - onlyifvalueisset (default)
